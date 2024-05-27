@@ -1,0 +1,142 @@
+:root {
+    --color-light-xl: #fff;
+    --color-light-l: #f6f6f6;
+    --color-light-s: #fafafa;
+    --color-dark-s: #cdcdcd;
+    --color-dark-m: #b2b2b2;
+    --color-dark-l: #545454;
+    --color-dark-xl: #4c4c4c;
+    --color-dark-2xl: #444;
+    --color-dark-3xl: #292929;
+    --color-primary: #f1cdb3;
+    --color-primary-light: #fddcc4;
+    --start-screen-gradient-background: #211f20;
+    --footer-gradient-background: #211f20;
+
+    --font-family: "Georgia", sans-serif;
+    --second-family: "Arial", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    font-family: var(--font-family);
+}
+
+.hero {
+    background: url(../img/Tesla-Wordmark-Red-def.png) center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1600px;
+    padding: 0px 20px;
+    margin: 0 auto;
+}
+
+.hero__container {}
+
+.header {
+    display: flex;
+    column-gap: 325px;
+    justify-content: center;
+}
+
+.logo {}
+
+.logo__title {}
+
+.nav {
+    display: flex;
+    column-gap: 325px;
+}
+
+.nav__list {
+    display: flex;
+    column-gap: 30px;
+    margin: 18px;
+}
+
+.nav__item {}
+
+.nav__link {
+    color: #211f20;
+}
+
+.hero__img {
+    width: 968px;
+    height: 450px;
+}
+
+.hero__content {}
+
+.hero__desc {
+    text-align: center;
+}
+
+.img__t {}
+
+.title {}
+
+.speed {
+    display: flex;
+}
+
+.road {
+    display: flex;
+}
+
+.seel {
+    display: flex;
+    column-gap: 100px;
+    justify-content: center;
+}
+
+.paragraph {}
+
+.hero__paragraph {}
+
+.hero__btn-wrap {
+    min-width: 76px;
+    background-color: #d10d0ddf;
+    min-height: 10px;
+    padding-top: 3px;
+}
+
+.btn {}
+
+.hero__btn {
+    color: #211f20;
+    background-color: #fff;
+}
